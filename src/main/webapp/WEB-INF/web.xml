@@ -1,0 +1,64 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>LoginController</servlet-name>
+  	<display-name>LoginController</display-name>
+  	<description></description>
+  	<servlet-class>com.pahana.Controller.LoginController</servlet-class>
+  </servlet>
+
+  <servlet>
+  	<servlet-name>CustomerController</servlet-name>
+  	<display-name>CustomerController</display-name>
+  	<description></description>
+  	<servlet-class>com.pahana.Controller.CustomerController</servlet-class>
+  </servlet>
+
+
+
+  <servlet>
+  	<servlet-name>AdminController</servlet-name>
+  	<display-name>AdminController</display-name>
+  	<description></description>
+  	<servlet-class>com.pahana.Controller.AdminController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CategoryController</servlet-name>
+  	<display-name>CategoryController</display-name>
+  	<description></description>
+  	<servlet-class>com.pahana.Controller.CategoryController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ContactController</servlet-name>
+  	<display-name>ContactController</display-name>
+  	<description></description>
+  	<servlet-class>com.pahana.Controller.ContactController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LoginController</servlet-name>
+  	<url-pattern>/LoginController</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+  	<servlet-name>CustomerController</servlet-name>
+  	<url-pattern>/CustomerController</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet-mapping>
+  	<servlet-name>AdminController</servlet-name>
+  	<url-pattern>/AdminController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CategoryController</servlet-name>
+  	<url-pattern>/CategoryController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ContactController</servlet-name>
+  	<url-pattern>/ContactController</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -1,0 +1,40 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+	<meta name="robots" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Ecom Admin  Bootstrap 5 Template" />
+	<meta property="og:title" content="Ecom Admin  Bootstrap 5 Template" />
+	<meta property="og:description" content="Ecom  Admin  Bootstrap 5 Template" />
+	<meta property="og:image" content="#" />
+	<meta name="format-detection" content="telephone=no">
+  <title>404</title>
+  <link href="./assets_admin/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./assets_admin/icons/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+  <link href="./assets_admin/icons/fontawesome/css/brands.min.css" rel="stylesheet">
+  <link href="./assets_admin/icons/fontawesome/css/solid.min.css" rel="stylesheet">
+  <link href="./assets_admin/css/style.css" rel="stylesheet">
+</head>
+<body class="custom-bg-secondary">
+  <div class="d-flex justify-content-center align-items-center page-not-found">
+    <div>
+      <img src=".//assets_admin/icons/404.svg" alt="404" class="not-found-svg">
+      <h1 class="text-center fw-bold">Oops! Page not found</h1>
+      <div class="text-center mt-4">
+        <a href="login?action=showLogin" class="btn custom-bg-primary text-white btn-hover">Go Back to Homepage</a>
+      </div>
+    </div>
+  </div>
+    <script  src="./assets_admin/js/jquery-3.6.0.min.js"></script>
+    <script  src="./assets_admin/js/bootstrap.bundle.min.js"></script>
+    <script  src="./assets_admin/plugin/chart/chart.js"></script>
+    <script  src="./assets_admin/js/chart.js"></script>
+    <script  src="./assets_admin/js/main.js"></script>
+</body>
+</html>

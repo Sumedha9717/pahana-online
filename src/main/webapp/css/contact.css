@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9f9;
+}
+
+.contact-section {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Floating Image */
+.contact-image {
+  float: right;
+  max-width: 40%;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+/* Form Styling */
+.contact-form {
+  overflow: hidden; /* Keeps layout tidy */
+}
+
+.contact-header {
+  margin-bottom: 20px;
+}
+
+.contact-header h2 {
+  color: #ff6600;
+  font-weight: bold;
+}
+
+.form-control, .btn {
+  border-radius: 8px;
+}
+
+.btn-custom {
+  background-color: #ff6600;
+  border: none;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.btn-custom:hover {
+  background-color: #e65c00;
+}
+
+/* Responsive Fix */
+@media (max-width: 768px) {
+  .contact-image {
+    float: none;
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 70%;
+  }
+}

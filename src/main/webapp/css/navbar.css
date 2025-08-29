@@ -1,0 +1,135 @@
+/* Custom Navbar Styles */
+.navbar {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 0.8rem 0;
+    transition: all 0.3s ease;
+    background-color: #000080; /* Dark blue-gray */
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.navbar-brand i {
+    color: #ffc107;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.9);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    margin: 0 0.1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+    padding: 0.5rem 1.5rem;
+    transition: all 0.2s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+    padding-left: 1.8rem;
+}
+
+/* Improved Search Styles */
+.search-form {
+  position: relative;
+  width: 100%;
+}
+
+.search-input {
+  padding-right: 50px; /* Make space for the button */
+  padding-left: 10px;
+}
+
+.btn-search {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  border: none;
+  background: #0d6efd;
+  color: white;
+  border-radius: 0 25px 25px 0;
+  padding: 0 15px;
+  transition: all 0.3s ease;
+}
+
+.btn-search:hover {
+  background: #0b5ed7;
+}
+
+/* User Actions */
+.user-actions .btn {
+    border-radius: 20px;
+    padding: 0.375rem 1rem;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.user-actions .btn-outline-light:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.user-actions .btn-warning {
+    min-width: 45px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .search-container {
+        width: 100%;
+        margin: 1rem 0;
+        order: 3;
+    }
+
+    .user-actions {
+        margin-top: 1rem;
+        width: 100%;
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.3rem;
+    }
+
+    .quick-searches {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .search-input {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .user-actions .btn {
+        padding: 0.375rem 0.75rem;
+        font-size: 0.9rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+}
